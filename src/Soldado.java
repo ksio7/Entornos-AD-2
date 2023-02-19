@@ -45,7 +45,16 @@ public int getNumeroBalas() {
 public void setNumeroBalas(int numeroBalas) {
 	this.numeroBalas = numeroBalas;
 }
+
+
  
+@Override
+public String toString() {
+	return "Soldado [estaMuerto=" + estaMuerto + ", numeroBalas=" + numeroBalas + ", isEstaMuerto()=" + isEstaMuerto()
+			+ ", getNumeroBalas()=" + getNumeroBalas() + ", puedeDisparar()=" + puedeDisparar() + ", getClass()="
+			+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+}
+
 /**
  * Este metodo indica si el soldado tiene mas de 0 balas y por lo tanto si puede disparar.
  * 
@@ -79,7 +88,6 @@ public void disparar(Soldado sol) {
     sol.estaMuerto = true;
 
 }
-
 
 
 
