@@ -4,7 +4,7 @@
  *  
  * 
  * 
- * @author ksio7
+ * @author Sergio Paredes
  * @version 1.0
  */
 
